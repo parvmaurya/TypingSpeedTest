@@ -1,0 +1,31 @@
+body{
+    background-color: #E3AE57;
+}
+#correctData{
+    color: #232B2B;
+    background-color: #DC3D24;
+    font-size: 30px;
+    filter: blur(3px);
+    opacity: 0.5;
+}
+#data{
+    color: #DC3D24;
+    background-color: #232B2B;
+    font-size: 30px;
+    text-shadow: 0 0 80px;
+    filter: blur(3px);
+    opacity:0.7;
+}
+#data::first-letter{
+    text-decoration: line-through;
+    color: hotpink;
+}
+#score{
+    font-size: 30px;
+}
+#timer{
+    font-size: 40px;
+}
+#result{
+    font-size: 40px;
+}
