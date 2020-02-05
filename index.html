@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="scriptLogic.js"></script>
+    <style>
+        body{
+            background-color: #E3AE57;
+        }
+        #correctData{
+            color: #232B2B;
+            background-color: #DC3D24;
+            font-size: 30px;
+            filter: blur(3px);
+            opacity: 0.5;
+        }
+        #data{
+            color: #DC3D24;
+            background-color: #232B2B;
+            font-size: 30px;
+            text-shadow: 0 0 80px;
+            filter: blur(3px);
+            opacity:0.7;
+        }
+        #data::first-letter{
+            text-decoration: line-through;
+            color: hotpink;
+        }
+        #score{
+            font-size: 30px;
+        }
+        #timer{
+            font-size: 40px;
+        }
+        #result{
+            font-size: 40px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id = "score">
+        Press Enter Key to Start
+    </p>
+
+    <p>
+    <span id = "correctData"></span>
+    <span id ="data"></span>
+    </p>
+
+    <div id="timer">
+        Seconds Elapsed : 0s 
+    </div>
+
+    <div id="result">
+
+    </div>
+</body>
+</html>
